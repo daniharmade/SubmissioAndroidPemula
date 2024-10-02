@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Koleksi Mobilku</string>
+    <string name="cars_name">Nama Mobil</string>
+    <string name="description">Deskripsi</string>
+    <string name="about">About</string>
+    <string name="share">Bagikan</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="name">Dani Harmade MD-03</string>
+    <string name="email">harmadedani@gmail.com</string>
+    <string name="contact_me">Contact Me</string>
+    <string name="let_s_connect">Let\'s Connect...!</string>
+    <string name="rent">Rental Mobil</string>
+    <string name="owner">Pemilik Mobil</string>
+    <string name="specification">Spesifikasi\n</string>
+    <string name="fuel">Bahan Bakar</string>
+    <string name="capacity">Kapasitas Maksimal</string>
+    <string name="year_condition">Tahun / Kondisi</string>
+    <string-array name="data_price">
+        <item>25k</item>
+        <item>30k</item>
+        <item>35k</item>
+        <item>45k</item>
+        <item>20k</item>
+        <item>22k</item>
+        <item>13k</item>
+        <item>24k</item>
+        <item>29k</item>
+        <item>291k</item>
+    </string-array>
+    <string-array name="data_name">
+        <item>Alphard</item>
+        <item>Brio</item>
+        <item>Civic</item>
+        <item>Ferari</item>
+        <item>Fortuner</item>
+        <item>Inova</item>
+        <item>Mustang</item>
+        <item>Pajero</item>
+        <item>Tesla</item>
+        <item>Audi</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>Alphard adalah MPV premium yang diproduksi oleh Toyota. Mobil ini dikenal karena kenyamanannya, fitur mewah, serta kabin yang luas. Alphard sering digunakan sebagai kendaraan keluarga atau transportasi eksekutif. </item>
+        <item>Brio adalah city car yang diproduksi oleh Honda, terkenal dengan desain yang kompak dan efisiensi bahan bakar yang tinggi. Mobil ini populer di kalangan pengguna perkotaan yang mencari kendaraan kecil dan hemat energi.</item>
+        <item>Civic adalah sedan kompak dari Honda yang sudah dikenal secara global. Civic memiliki desain sporty, performa mesin yang baik, serta teknologi canggih yang membuatnya populer di kalangan anak muda dan penggemar mobil.</item>
+        <item>Ferrari adalah merek mobil sport mewah asal Italia yang dikenal dengan performa tinggi dan desain yang sangat ikonik. Ferrari adalah simbol status dan kebanggaan bagi para penggemar otomotif yang mencari kecepatan dan eksklusivitas.</item>
+        <item>Fortuner adalah SUV menengah yang diproduksi oleh Toyota. Mobil ini memiliki kemampuan off-road yang baik, daya tahan yang tinggi, serta desain yang tangguh, menjadikannya favorit bagi mereka yang suka petualangan.</item>
+        <item>Innova adalah MPV dari Toyota yang dirancang untuk memenuhi kebutuhan keluarga. Mobil ini terkenal karena daya tahannya, ruang yang luas, dan efisiensi bahan bakar yang cukup baik untuk ukuran mobil keluarga besar.</item>
+        <item>Mustang adalah mobil sport legendaris dari Ford yang dikenal dengan desain muscle car khas Amerika. Mobil ini terkenal dengan tenaga mesin yang besar dan desain yang berani, menjadi simbol kekuatan dan kebebasan.</item>
+        <item>Pajero adalah SUV off-road dari Mitsubishi yang dikenal karena daya tahannya dan performa yang tangguh di medan berat. Pajero sering digunakan untuk petualangan off-road dan terkenal dengan reputasinya yang kuat dalam hal ketangguhan.</item>
+        <item>Tesla terkenal karena desain futuristik, performa listrik tinggi, dan kemampuan teknologi otonom. Misalnya, Tesla Model S memiliki akselerasi cepat, jangkauan baterai hingga 600 km, dan fitur Autopilot yang mendukung pengemudian semi-otomatis.</item>
+        <item>Audi memiliki desain mewah, performa mesin kuat, dan kenyamanan premium. Audi e-tron, salah satu model listriknya, menawarkan interior mewah, handling stabil, dan jangkauan hingga 400 km dengan teknologi canggih seperti sistem penggerak quattro elektrik.</item>
+    </string-array>
+    <string-array name="data_fuel">
+        <item>Bensin</item>
+        <item>Bensin</item>
+        <item>Bensin</item>
+        <item>Bensin</item>
+        <item>Diesel</item>
+        <item>Diesel</item>
+        <item>Bensin</item>
+        <item>Diesel</item>
+        <item>Listrik</item>
+        <item>Bensin</item>
+    </string-array>
+    <string-array name="data_capacity">
+        <item>7 - 8 Orang</item>
+        <item>5 Orang</item>
+        <item>5 Orang</item>
+        <item>2 - 4 Orang</item>
+        <item>7 Orang</item>
+        <item>7 - 8 Orang</item>
+        <item>4 Orang</item>
+        <item>7 Orang</item>
+        <item>5 Orang</item>
+        <item>5 Orang</item>
+    </string-array>
+    <string-array name="data_year_condition">
+        <item>2020 / Baik</item>
+        <item>2019 / Service</item>
+        <item>2022 / Baik</item>
+        <item>Ferari</item>
+        <item>Fortuner</item>
+        <item>Inova</item>
+        <item>Mustang</item>
+        <item>Pajero</item>
+        <item>Tesla</item>
+        <item>Audi</item>
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/alphard</item>
+        <item>@drawable/brio</item>
+        <item>@drawable/civic</item>
+        <item>@drawable/ferari</item>
+        <item>@drawable/fortuner</item>
+        <item>@drawable/inova</item>
+        <item>@drawable/mustang</item>
+        <item>@drawable/pajero</item>
+        <item>@drawable/tesla</item>
+        <item>@drawable/audi</item>
+    </integer-array>
+</resources>
