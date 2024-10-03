@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Koleksi Mobilku</string>
+    <string name="app_name">Rental Kuy</string>
     <string name="cars_name">Nama Mobil</string>
     <string name="description">Deskripsi</string>
     <string name="about">About</string>
@@ -9,23 +9,23 @@
     <string name="email">harmadedani@gmail.com</string>
     <string name="contact_me">Contact Me</string>
     <string name="let_s_connect">Let\'s Connect...!</string>
-    <string name="rent">Rental Mobil</string>
+    <string name="rent">Pesan Sekarang</string>
     <string name="owner">Pemilik Mobil</string>
     <string name="specification">Spesifikasi\n</string>
     <string name="fuel">Bahan Bakar</string>
     <string name="capacity">Kapasitas Maksimal</string>
     <string name="year_condition">Tahun / Kondisi</string>
     <string-array name="data_price">
-        <item>25k</item>
-        <item>30k</item>
-        <item>35k</item>
-        <item>45k</item>
-        <item>20k</item>
-        <item>22k</item>
-        <item>13k</item>
-        <item>24k</item>
-        <item>29k</item>
-        <item>291k</item>
+        <item>Rp 500.000 / Hari</item>
+        <item>Rp 250.000 / Hari</item>
+        <item>Rp 600.000 / Hari</item>
+        <item>Rp 800.000 / Hari</item>
+        <item>Rp 450.000 / Hari</item>
+        <item>Rp 350.000 / Hari</item>
+        <item>Rp 1.000.000 / Hari</item>
+        <item>Rp 450.000 / Hari</item>
+        <item>Rp 900.000 / Hari</item>
+        <item>Rp 850.000 / Hari</item>
     </string-array>
     <string-array name="data_name">
         <item>Alphard</item>

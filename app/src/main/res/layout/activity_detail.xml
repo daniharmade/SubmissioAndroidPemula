@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#1F1F1F">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,7 +30,8 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="8dp"
-            android:textSize="32sp" />
+            android:textSize="32sp"
+            android:textColor="#FF9800" />
 
         <TextView
             android:id="@+id/tv_name_detail"
@@ -39,7 +41,8 @@
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textColor="#E0E0E0" />
 
         <TextView
             android:id="@+id/tv_description_detail"
@@ -48,12 +51,15 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
-            android:lineSpacingMultiplier="1" />
+            android:lineSpacingMultiplier="1"
+            android:textColor="#B0B0B0"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="12sp"
+            android:textColor="#E0E0E0"
+            android:textStyle="bold"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"
@@ -75,6 +81,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
+                    android:textColor="#B0B0B0"
                     android:layout_marginEnd="16dp"
                     android:text="@string/fuel" />
 
@@ -82,6 +89,7 @@
                     android:id="@+id/tv_fuel_detail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="#B0B0B0"
                     android:textSize="14sp"
                     android:layout_weight="1" />
             </TableRow>
@@ -94,6 +102,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="#B0B0B0"
                     android:layout_marginEnd="16dp"
                     android:textSize="14sp"
                     android:text="@string/capacity" />
@@ -102,6 +111,7 @@
                     android:id="@+id/tv_capacity_detail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="#B0B0B0"
                     android:layout_weight="1"
                     android:textSize="14sp" />
             </TableRow>
@@ -114,6 +124,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="#B0B0B0"
                     android:layout_marginEnd="16dp"
                     android:textSize="14sp"
                     android:text="@string/year_condition" />
@@ -122,6 +133,7 @@
                     android:id="@+id/tv_year_condition_detail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="#B0B0B0"
                     android:layout_weight="1"
                     android:textSize="14sp" />
             </TableRow>
@@ -131,9 +143,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="12sp"
+            android:textColor="#E0E0E0"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"
+            android:textStyle="bold"
             android:text="@string/owner" />
 
         <RelativeLayout
@@ -155,16 +169,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
+                android:textColor="#B0B0B0"
                 android:layout_toEndOf="@+id/profile_image"
                 android:text="@string/name" />
         </RelativeLayout>
 
         <Button
+            android:id="@+id/btn_order"
             android:text="@string/rent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
+            android:backgroundTint="#FF9800"
+            android:textColor="#FFFFFF"
             android:layout_marginBottom="16dp" />
     </LinearLayout>
 

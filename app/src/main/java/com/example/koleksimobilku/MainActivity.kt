@@ -1,5 +1,6 @@
 package com.example.koleksimobilku
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
@@ -39,6 +40,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    @SuppressLint("Recycle")
     private fun getListCars(): ArrayList<Car> {
         val dataName = resources.getStringArray(R.array.data_name)
         val dataDescription = resources.getStringArray(R.array.data_description)

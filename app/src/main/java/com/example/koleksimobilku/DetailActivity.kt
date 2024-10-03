@@ -1,9 +1,11 @@
 package com.example.koleksimobilku
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -41,6 +43,21 @@ class DetailActivity : AppCompatActivity() {
             detailFuel.text = it.fuel
             detailCapacity.text = it.capacity
             detailYearsCondition.text = it.yearscondition
+        }
+
+        val btnOrder: Button = findViewById(R.id.btn_order)
+
+        btnOrder.setOnClickListener {
+            val instagramUri = Uri.parse("https://www.instagram.com/dani.harmade")
+            val intent = Intent(Intent.ACTION_VIEW, instagramUri)
+
+            intent.setPackage("com.instagram.android")
+            try {
+                startActivity(intent)
+            } catch (e: Exception) {
+                intent.setPackage(null)
+                startActivity(intent)
+            }
         }
     }
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

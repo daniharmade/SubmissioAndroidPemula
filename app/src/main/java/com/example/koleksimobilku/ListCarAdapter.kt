@@ -33,11 +33,5 @@ class ListCarAdapter(private val listCar: ArrayList<Car>) : RecyclerView.Adapter
             intentDetail.putExtra("key_car", listCar[holder.adapterPosition])
             holder.itemView.context.startActivity(intentDetail)
         }
-
-        class CarViewHolder(itemView : View) : RecyclerView.ViewHolder(itemView) {
-            val Images : ImageView = itemView.findViewById(R.id.img_item_photo)
-            val Title :  TextView = itemView.findViewById(R.id.tv_item_name)
-            val Description : TextView = itemView.findViewById(R.id.tv_item_description)
-        }
     }
 }
